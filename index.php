@@ -121,7 +121,8 @@
                                        
                                         <tbody>
                                         <?php
-                                        $conn = new mysqli("localhost", "root", "", "gudang");
+                                        include 'config.php';
+                                        
                                         error_reporting (E_ALL ^ E_NOTICE);
                                         $ambilsemuadata = "SELECT * FROM stock"; // Pilih semua data dari tabel 'data_pengguna'
                                         $result = $conn->query($ambilsemuadata); 
