@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -58,58 +59,3 @@
                     
                 </nav>
             </div>
-<div id="layoutSidenav_content">
-<main>
-                    <div class="container-fluid">
-                        <h1 class="mt-4">Update </h1><br>
-                        
-                        <form method="POST" action="tambahbarang.php">                          
-                        <div class="form-floating mb-3">
-                                                <input class="form-control" id="nama_barang" name="nama_barang" placeholder="nama barang" required />
-                                                <!-- <label for="inputEmail">Nama barang</label> -->
-                                            </div>
-                                            <div class="form-floating mb-3">
-                                                <input class="form-control"  id="deskripsi" name="deskripsi" required placeholder="deskripsi" />
-                                                <!-- <label for="inputEmail">deskripsi</label> -->
-                                            </div>
-                                            <div class="form-floating mb-3">
-                                                <input class="form-control" id="stok" name="stok" required placeholder="stock" />
-                                                <!-- <label for="inputEmail">stok</label> -->
-                                            </div>
-                                            
-                                            
-                                            <div class="mt-4 mb-0">
-                                            <button type="submit" class="btn btn-primary w-100">Register</button>
-                                            </div>
-                        </form>
-                        
-                        
-                    </main>             
-                    </div>
-                <footer class="py-4 bg-light mt-auto">
-                    <div class="container-fluid px-4">
-                        <div class="d-flex align-items-center justify-content-between small">
-                            <div class="text-muted">Copyright &copy; Your Website 2023</div>
-                            <div>
-                                <a href="#">Privacy Policy</a>
-                                &middot;
-                                <a href="#">Terms &amp; Conditions</a>
-                            </div>
-                        </div>
-                    </div>
-                </footer>
-            </div>
-        </div>
-        <script>
-function confirmDelete() {
-    return confirm("Apakah Anda yakin ingin menghapus data ini?");
-}
-</script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
-        <script src="../js/scripts.js"></script>
-        <script src="../js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
-        <script src="../js/bootstrap.bundle.min.js.map" crossorigin="anonymous"></script>
-        <script src="../js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
-    </body>
-</html>

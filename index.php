@@ -68,11 +68,11 @@
                         
                         <div class="card mb-4">
                             <div class="card-header">
-                                <form method='POST' action="tambahbarang.php">
+                                <form method='POST' action="tambah.php">
                                 <!-- Button trigger modal -->
-                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                                    <a type="button" class="btn btn-primary"  href="tambah.php">
                                       Tambah data
-                                    </button>
+</a>
                                     
                                     <!-- Modal -->
                                                                        
