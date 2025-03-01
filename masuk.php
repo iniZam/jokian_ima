@@ -1,4 +1,4 @@
-<?php include 'config.php';
+<?php $conn = new mysqli("localhost", "root", "", "gudang");
 error_reporting (E_ALL ^ E_NOTICE);?>
 <!DOCTYPE html>
 <html lang="en">

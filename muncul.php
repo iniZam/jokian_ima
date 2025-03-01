@@ -1,7 +1,7 @@
 <?php
 
 // Connect to database
-include 'config.php';
+$conn = new mysqli("localhost", "root", "", "gudang");
 
 error_reporting (E_ALL ^ E_NOTICE);
 // Get data from form

@@ -68,11 +68,11 @@
                         
                         <div class="card mb-4">
                             <div class="card-header">
-                                <form method='POST' action="tambah.php">
+                                <form method='POST' action="tambahbarang.php">
                                 <!-- Button trigger modal -->
-                                    <a type="button" class="btn btn-primary"  href="tambah.php">
+                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
                                       Tambah data
-</a>
+                                    </button>
                                     
                                     <!-- Modal -->
                                                                        
@@ -121,8 +121,7 @@
                                        
                                         <tbody>
                                         <?php
-                                        include 'config.php';
-                                        
+                                        $conn = new mysqli("localhost", "root", "", "gudang");
                                         error_reporting (E_ALL ^ E_NOTICE);
                                         $ambilsemuadata = "SELECT * FROM stock"; // Pilih semua data dari tabel 'data_pengguna'
                                         $result = $conn->query($ambilsemuadata); 
