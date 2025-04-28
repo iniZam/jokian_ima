@@ -1,6 +1,7 @@
 <?php 
 // Connect to database
-$conn = new mysqli("localhost", "root", "", "gudang");
+// $conn = new mysqli("localhost", "root", "", "gudang");
+include 'config.php';
 
 // Check connection
 if ($conn->connect_error) {
